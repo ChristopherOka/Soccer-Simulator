@@ -1,38 +1,3 @@
-/*
-Student name: Christopher Oka
-Student number: 20892372
-
-SYDE 121 Lab: Assignment #3
-Filename: a3_q1.cpp
-
- I hereby declare that this code, submitted for credit for the course
-SYDE121, is a product of my own efforts.  This coded solution has
-not been plagiarized from other sources and has not been knowingly plagiarized by others.
-
- Project: Soccer Simulator
- Purpose: Simulate a complete soccer game with shots, goals, fouls etc.
- Due date: Friday, October 30
-
-*/
-/*
-Program steps:
-1. Make a function that sets the amount of events, and the amount of events in each half by using the srand and rand function
-2. Make a function that repeats for each event, and randomizes a number for each event to run through the given scenarios
-2.1 Each scenario is set to a different randomized value from 1-6, and for each scenario, whichever scenario occurs is printed to console
-and an integer value like fouls, goals, cards, etc. are incremented depending on the team and on the scenario
-3. Make a function that outputs the results at halftime
-4. Make a function that outputs the results at the end of the game
-*/
-
-/*
-To debug the program, I used breakpoints to go through the code line by line and see why some if statements weren't being entered, 
-and why the code was outputting incorrect values.
-To test if the program ran correctly, I ran it numerous times and counted up the values to see if it matched the output. 
-It was also tested to make sure every possible event outcome was run in the program and outputted to the console.
-It was also observed that different outcomes appeared for each game, and that is was truly random
-
-*/
-
 #include <iostream>
 #include <cstdlib>
 #include <Windows.h>
